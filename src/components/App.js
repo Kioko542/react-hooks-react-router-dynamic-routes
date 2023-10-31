@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Route, Switch } from "react-router-dom";
 import NavBar from "./NavBar";
-import MoviesPage from "./MoviesPage";
+import MoviesPage from "./MoviesPage"; // Import your MoviesPage component
 
 function App() {
   const [movies, setMovies] = useState([
